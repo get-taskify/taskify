@@ -1,0 +1,132 @@
+{
+
+    "header.searchbar.placeholder": "Suchen..",
+    "header.searchbar.button": "Suchen",
+    "header.brand.name": "Taskify",
+    "header.language": "Sprache",
+    "header.profile": "Profil",
+    "header.profile.myprofile": "Mein Konto",
+    "header.profile.adminpanel": "Administrationsbereich",
+    "header.profile.logout": "Abmelden",
+
+    "sidebar.home": "Startseite",
+    "sidebar.createassignment": "Auftrag erstellen",
+    "sidebar.assignments": "Aufträge",
+    "sidebar.workshops": "Werkstätten",
+    "sidebar.open": "Seitenleiste Öffnen",
+    "sidebar.close": "Seitenleiste Schließen",
+    "sidebar.editassignment": "Auftrag Bearbeiten",
+
+
+
+
+    "home.assignmentprogress": "Auftragsfortschritt",
+    "home.assignmentprogress.waiting": "Wartend",
+    "home.assignmentprogress.paused": "Pausiert",
+    "home.assignmentprogress.ready": "Bereit",
+    "home.assignmentprogress.cancelled": "Abgebrochen",
+    "home.assignmentprogress.done": "Fertig",
+    "home.assignmentprogress.notassigned": "Nicht Zugewiesen",
+    "home.assignmentprogress.inprogress": "In Arbeit",
+
+    "home.news": "Neuigkeiten",
+    "home.news.create": "Beitrag Erstellen",
+    "home.news.create.save": "Speichern",
+    "home.news.create.cancel": "Abbrechen",
+    "home.news.createdat": "um",
+    "home.news.delete": "Löschen",
+    "home.news.deletearticle": "Beitrag Löschen",
+    "home.news.none": "Es gibt keine Neuigkeiten!",
+    "home.news.readmore": "Mehr Anzeigen",
+    "home.news.readless": "Weniger Anzeigen",
+
+    "home.team": "Team",
+    "home.team.admin": "Administrator",
+    "home.team.technician": "Techniker",
+    "home.team.supporter": "Supporter",
+
+
+
+
+    "login.label.password": "Passwort",
+    "login.label.email": "Email",
+    "login.rememberme": "Angemeldet Bleiben",
+    "login.login": "Anmelden",
+    "login.forgot": "Passwort Vergessen?",
+
+
+
+
+    "profile.updateprofile": "Profil Bearbeiten",
+    "profile.label.email": "Email Addresse",
+    "profile.label.name": "Name",
+    "profile.updatepassword": "Passwort Ändern",
+    "profile.label.current": "Aktuelles Passwort",
+    "profile.label.new": "Neues Passwort",
+    "profile.label.repeat": "Neues Passwort Wiederholen",
+
+
+
+
+    "admin.panel": "Administrationsbereich",
+    "admin.usermanagement": "Nutzerverwaltung",
+    "admin.roles": "Rollen",
+    "admin.deleteuser": "Nutzer Löschen",
+    "admin.plus": "Plus",
+    "admin.addmember": "Nutzer Hinzufügen",
+    "admin.default": "Standardaufgaben",
+    "admin.edit": "Bearbeiten",
+    "admin.delete": "Löschen",
+    "admin.adddefaulttask": "Standardaufgabe Hinzufügen",
+    "admin.close": "Schließen",
+    "admin.devicetype": "Gerätetyp",
+    "admin.devicetype.pc": "PC",
+    "admin.devicetype.notebook": "Notebook",
+    "admin.addworkshop": "Werkstatt Hinzufügen",
+    "admin.address": "Addresse",
+
+
+
+
+    "assignment.priority.low": "Niedrig",
+    "assignment.priority.medium": "Medium",
+    "assignment.priority.high": "Hoch",
+    "assignment.filter": "Filtern",
+    "assignment.all": "Alle",
+    "assignment.workshop": "Werkstatt",
+    "assignment.state": "Status",
+    "assignment.priority": "Priorität",
+    "assignment.pctype": "PC-Typ",
+    "assignment.systemlanguage": "Systemsprache",
+    "assignment.english": "Englisch",
+    "assignment.german": "Deutsch",
+    "assignment.italian": "Italienisch",
+    "assignment.brand": "Marke",
+    "assignment.cpu": "CPU",
+    "assignment.ram": "RAM",
+    "assignment.storage": "Speicher",
+    "assignment.architecture": "Architektur",
+    "assignment.bioskey": "BIOS-Taste",
+    "assignment.tasks": "Aufgaben",
+    "assignment.additionaltasks": "Zusätzliche Aufgaben",
+    "assignment.additionaltask": "Zusätzliche Aufgabe",
+    "assignment.addtask": "Aufgabe Hinzufügen",
+    "assignment.additionalnotes": "Zusätzliche Notizen",
+    "assignment.deleteassignment": "Auftrag Löschen",
+    "assignment.assignment": "Auftrag",
+    "assignment.history": "Verlauf",
+    "assignment.to": "zu",
+    "assignment.changed": "änderte",
+    "assignment.from": "von",
+    "assignment.on": "am",
+
+
+
+
+    "delete.sure.post": "Wollen Sie diesen Beitrag wirklich löschen?",
+    "delete.sure.assignment": "Wollen Sie diesen Auftrag wirklich löschen?",
+    "delete.sure.user": "Wollen Sie diesen Nutzer wirklich löschen?",
+    "delete.sure.defaulttask": "Wollen Sie diese Standardaufgabe wirklich löschen?",
+    "delete.sure.workshop": "Wollen Sie diese Werkstatt wirklich löschen?"
+
+}

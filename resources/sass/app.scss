@@ -1,0 +1,756 @@
+// Fonts
+@import 'font';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+//Font Awsome
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+
+// Scrollbar
+
+::-webkit-scrollbar {
+
+    height: 12px;
+    width: 8px;
+    background: $sb-background;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: $th-lightgray;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+
+    background: $sb-bar;
+
+}
+
+::-webkit-scrollbar-corner {
+
+    background: $sb-background;
+
+}
+
+// Body
+
+body {
+
+    color: $t-white;
+    background-color: $th-darkgray;
+
+    //Background-Color Classes bg
+
+    .th-darkgray {
+
+        background-color: $th-darkgray !important;
+
+    }
+
+    .th-gray {
+
+        background-color: $th-gray !important;
+
+    }
+
+    .th-lightergray {
+
+        background-color: $th-lightergray !important;
+
+    }
+
+    .th-lightertolightgray {
+
+        background-color: $th-lightertolightgray !important;
+
+    }
+
+    .th-lightgray {
+
+        background-color: $th-lightgray !important;
+
+    }
+
+    .th-whitegray {
+
+        background-color: $th-whitegray !important;
+
+    }
+
+    .th-orange {
+
+        background-color: $th-orange !important;
+
+    }
+
+    .th-yellow {
+
+        background-color: $th-yellow !important;
+
+    }
+
+    .th-blue {
+
+        background-color: $th-blue !important;
+
+    }
+
+    .th-red {
+
+        background-color: $th-red !important;
+
+    }
+
+    .th-green {
+
+        background-color: $th-green !important;
+
+    }
+
+    .th-purple {
+
+        background-color: $th-purple !important;
+
+    }
+
+    // Text-Color Classes t
+
+    .t-gray {
+
+        color: $th-gray !important;
+
+    }
+
+    .t-lightergray {
+
+        color: $th-lightergray !important;
+
+    }
+
+    .t-lightertolightgray {
+
+        color: $th-lightertolightgray !important;
+
+    }
+
+    .t-lightgray {
+
+        color: $th-lightgray !important;
+
+    }
+
+    .t-whitegray {
+
+        color: $th-whitegray !important;
+
+    }
+
+    .t-orange {
+
+        color: $th-orange !important;
+
+    }
+
+    .t-yellow {
+
+        color: $th-yellow !important;
+
+    }
+
+    .t-blue {
+
+        color: $th-blue !important;
+
+    }
+
+    .t-red {
+
+        color: $th-red !important;
+
+    }
+
+    .t-green {
+
+        color: $th-green !important;
+
+    }
+
+    .t-white {
+
+        color: $t-white !important;
+
+    }
+
+    // Border-Color Classes bc
+
+    .bc-darkgray {
+
+        border-color: $th-darkgray !important;
+
+    }
+
+    .bc-gray {
+
+        border-color: $th-gray !important;
+
+    }
+
+    .bc-lightergray {
+
+        border-color: $th-lightergray !important;
+
+    }
+
+    .bc-lightertolightgray {
+
+        border-color: $th-lightertolightgray !important;
+
+    }
+
+    .bc-lightgray {
+
+        border-color: $th-lightgray !important;
+
+    }
+
+    .bc-white {
+
+        border-color: $t-white !important;
+
+    }
+
+    .bc-whitegray {
+
+        border-color: $th-whitegray !important;
+
+    }
+
+    .bc-orange {
+
+        border-color: $th-orange !important;
+
+    }
+
+    .bc-yellow {
+
+        border-color: $th-yellow !important;
+
+    }
+
+    .bc-blue {
+
+        border-color: $th-blue !important;
+
+    }
+
+    .bc-red {
+
+        border-color: $th-red !important;
+
+    }
+
+    .bc-green {
+
+        border-color: $th-green !important;
+
+    }
+
+    // Horizontal-Line Classes hr
+
+    hr {
+
+        border-color: $th-lightgray;
+
+    }
+
+    // Input No Outline i-outline-none
+
+    .i-outline-none {
+
+        outline: none;
+
+    }
+
+    // Input no resize i-resize-none
+
+    .i-resize-none {
+
+        resize: none;
+
+    }
+
+    // Dont display dropdown Arrow d-dropdownafter-none
+
+    .d-dropdownafter-none::after {
+
+        //Remove dropdown arrow
+
+        display: none !important;
+
+    }
+
+    // Dont display Input number arrows
+    .input-arrows-none {
+
+        appearance: textfield;
+
+        // Chrome
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+
+        -webkit-appearance: none;
+        margin: 0;
+
+        }
+
+        // Firefox
+        input[type=number] {
+
+            -moz-appearance: textfield;
+            appearance: textfield;
+
+        }
+
+    }
+
+    // Image Sizes img-*
+
+    .img-20 {
+
+        height: 20px;
+
+    }
+
+    .img-w-20 {
+
+        width: 20px;
+
+    }
+
+    .img-40 {
+
+        width: 40px !important;
+        height: 40px !important;
+
+    }
+
+    .img-50 {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .img-80 {
+
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .img-150 {
+
+        height: 150px;
+
+    }
+
+    // Underline on hover hover-underline
+
+    .hover-underline:hover {
+
+        text-decoration: underline !important;
+
+    }
+
+    // Placeholders with color and opacity placeholder-*
+
+    .placeholder-gray::placeholder {
+
+        color: $th-gray;
+        opacity: 1;
+
+    }
+
+}
+
+//Header
+
+header {
+
+    height: 60px;
+    z-index: 999;
+
+}
+
+    // Logo
+
+    #logoimg {
+
+        width: 40px;
+        margin-top: -5px;
+
+    }
+
+    // Searchbar
+
+    #searchtext {
+
+        width: 70%;
+        height: 40px;
+
+    }
+
+    #searchbutton {
+
+        margin-left: -5px;
+        height: 40px;
+
+        img {
+
+            width: 23px;
+
+        }
+
+    }
+
+    // Language-Dropdown
+
+    .dropdown-menu {
+
+        min-width: 1rem !important;
+        background-color: $th-lightgray;
+
+    }
+
+// Sidebar
+
+#sidebar {
+
+    width: 60px;
+    margin-top: 60px !important;
+
+}
+
+    // Arrow - Open/Close Sidebar
+
+    #arrowsdiv {
+
+        width: 60px;
+
+    }
+
+// Main
+
+main {
+
+    margin-top: 60px !important;
+    margin-left: 60px;
+
+}
+
+// Login
+
+#loginlogo {
+
+    img {
+
+        width: 200px;
+
+    }
+
+    p {
+
+        margin-top: -35px;
+        font-size: 6rem;
+
+    }
+
+}
+
+// Home
+
+#news {
+
+    #noarticles {
+
+        min-height: 300px;
+
+    }
+
+}
+
+#assignmentprogress {
+
+    #assignmentprogresscolordiv {
+
+        height: 20px;
+        width: 50px;
+
+    }
+
+}
+
+#team {
+
+    #teamprofileimg {
+
+        margin-top: -20px;
+
+    }
+
+}
+
+// Profile
+
+#profile {
+
+    #profilebadgeimg {
+
+        margin-top: -40px;
+
+    }
+
+}
+
+// Admin Panel
+
+#adminpanel {
+
+    // User Management
+
+    #usermanagement{
+
+        #userprofileimg {
+
+            margin-top: -20px;
+
+        }
+
+        #addmemberdiv:hover {
+
+            background-color: $th-orange !important;
+
+            h5 {
+
+                color: $th-gray !important;
+
+            }
+
+        }
+
+    }
+
+    // Default Tasks
+
+    #defaulttasks {
+
+        #defaulttaskdiv {
+
+            #devicetypediv {
+
+                #dropdowndiv {
+
+                    .scssdevicetypedropdownbtn:disabled {
+
+                        border-color: $th-lightergray !important;
+
+                    }
+
+                    .scssdevicetypedropdownbtn::after {
+
+                        // Remove arrow
+
+                        display: var(--displayvar, none);
+
+                    }
+
+                    #dropdownitemdiv:hover {
+
+                        background-color: $th-lightgray;
+
+                    }
+
+                    #dropdownitemdiv label:hover {
+
+                        cursor: pointer;
+
+                    }
+
+                }
+
+            }
+
+            .scssdefaulttasktext:disabled {
+
+                border-color: $th-lightergray !important;
+
+            }
+
+            #adddefaulttask:hover {
+
+                background-color: $th-orange;
+
+                h5 {
+
+                    color: $th-gray !important;
+                    font-weight: bold !important;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // Workshops
+
+    #workshops {
+
+        #workshopdiv {
+
+            .scssname:disabled, .scssaddress:disabled {
+
+                border-color: $th-lightergray !important;
+
+            }
+
+            #addworkshop:hover {
+
+                background-color: $th-orange;
+
+                h5 {
+
+                    color: $th-gray;
+                    font-weight: bold;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+//Assignments
+
+#assignments {
+
+    img {
+
+        height: 250px;
+
+    }
+
+    #assignmentfilterdropdown {
+
+        #dropdowndiv {
+
+            #dropdownitemdiv:last-of-type {
+
+                border-bottom: none !important;
+
+            }
+
+            #dropdownitemdiv:hover {
+
+                background-color: $th-lightgray;
+
+            }
+
+            #dropdownitemdiv label:hover {
+
+                cursor: pointer;
+
+            }
+
+        }
+
+    }
+
+}
+
+// Create Assignment
+
+#createassignment {
+
+    #dropdowndiv {
+
+        #dropdownitemdiv:last-of-type {
+
+            border-bottom: none !important;
+
+        }
+
+        #dropdownitemdiv:hover {
+
+            background-color: $th-lightgray;
+
+        }
+
+        #dropdownitemdiv label:hover {
+
+            cursor: pointer;
+
+        }
+
+    }
+
+    #createassignmentdeletetaskbtn {
+
+        img {
+
+            width: 20px;
+
+        }
+
+    }
+
+    #createassignmentdeletetaskbtn:disabled {
+
+        background-color: $th-lightgray !important;
+        border-color: $th-lightergray !important;
+
+    }
+
+    #cancelbtn:hover {
+
+        border-color: $th-orange;
+
+    }
+
+}
+
+// Assignment
+
+#assignment {
+
+    #savebtn:hover {
+
+        background-color: $th-orange;
+        border-color: $th-orange;
+
+    }
+
+    #editbtn:hover {
+
+        border-color: $th-orange;
+
+    }
+
+}

@@ -1,0 +1,132 @@
+{
+
+    "header.searchbar.placeholder": "Ricerca..",
+    "header.searchbar.button": "Ricerca",
+    "header.brand.name": "Taskify",
+    "header.language": "Linguage",
+    "header.profile": "Profilo",
+    "header.profile.myprofile": "Mio Profilo",
+    "header.profile.adminpanel": "Pannello Amministrativo",
+    "header.profile.logout": "Logout",
+
+    "sidebar.home": "Homepage",
+    "sidebar.createassignment": "Crea Ordine",
+    "sidebar.assignments": "Ordini",
+    "sidebar.workshops": "Laboratori",
+    "sidebar.open": "Aprire",
+    "sidebar.close": "Chiudere",
+    "sidebar.editassignment": "Modifica Ordine",
+
+
+
+
+    "home.assignmentprogress": "Stato degli ordini",
+    "home.assignmentprogress.waiting": "In Attesa",
+    "home.assignmentprogress.paused": "In Pause",
+    "home.assignmentprogress.ready": "Pronto",
+    "home.assignmentprogress.cancelled": "Interotto",
+    "home.assignmentprogress.done": "Ready",
+    "home.assignmentprogress.notassigned": "Non Assegnato",
+    "home.assignmentprogress.inprogress": "In Corso",
+
+    "home.news": "Novità",
+    "home.news.create": "Crea Un Post",
+    "home.news.create.save": "Salva",
+    "home.news.create.cancel": "Annula",
+    "home.news.createdat": "alle",
+    "home.news.delete": "Elimina",
+    "home.news.deletearticle": "Elimina Post",
+    "home.news.none": "Non ci sono novità!",
+    "home.news.readmore": "Mostra di più",
+    "home.news.readless": "Mostra meno",
+
+    "home.team": "Team",
+    "home.team.admin": "Administratore",
+    "home.team.technician": "Tecnico",
+    "home.team.supporter": "Supporter",
+
+
+
+
+    "login.label.password": "Password",
+    "login.label.email": "Email",
+    "login.rememberme": "Ricordati Di Me",
+    "login.login": "Login",
+    "login.forgot": "Ha Dimenticato La Password?",
+
+
+
+
+    "profile.updateprofile": "Aggiorna Profilo",
+    "profile.label.email": "Email",
+    "profile.label.name": "Nome",
+    "profile.updatepassword": "Aggiorna Password",
+    "profile.label.current": "Password Corrente",
+    "profile.label.new": "Nuova Password",
+    "profile.label.repeat": "Ripetere Nuova Password",
+
+
+
+
+    "admin.panel": "Pannello Amministrativo",
+    "admin.usermanagement": "Gestione Utenti",
+    "admin.roles": "Ruoli",
+    "admin.deleteuser": "Elimina Utente",
+    "admin.plus": "Più",
+    "admin.addmember": "Aggiungi Utente",
+    "admin.default": "Compiti Predefiniti",
+    "admin.edit": "Modifica",
+    "admin.delete": "Elimina",
+    "admin.devicetype": "Tipo Di Dispositivo",
+    "admin.devicetype.pc": "PC",
+    "admin.devicetype.notebook": "Notebook",
+    "admin.adddefaulttask": "Aggiungi Compito Predefinito",
+    "admin.close": "Chiudere",
+    "admin.addworkshop": "Aggiungi Laboratorio",
+    "admin.address": "Indirizzo",
+
+
+
+
+    "assignment.priority.low": "Bassa",
+    "assignment.priority.medium": "Media",
+    "assignment.priority.high": "Alta",
+    "assignment.filter": "Filtro",
+    "assignment.all": "Tutti",
+    "assignment.workshop": "Laboratorio",
+    "assignment.state": "Stato",
+    "assignment.priority": "Priorità",
+    "assignment.pctype": "Tipo Di PC",
+    "assignment.systemlanguage": "Lingua Di Sistema",
+    "assignment.english": "Inglese",
+    "assignment.german": "Tedesco",
+    "assignment.italian": "Italiano",
+    "assignment.brand": "Marca",
+    "assignment.cpu": "CPU",
+    "assignment.ram": "RAM",
+    "assignment.storage": "Memoria",
+    "assignment.architecture": "Architettura",
+    "assignment.bioskey": "Tasto BIOS",
+    "assignment.tasks": "Compiti",
+    "assignment.additionaltasks": "Compiti Aggiuntivi",
+    "assignment.additionaltask": "Compito Aggiuntivo",
+    "assignment.addtask": "Aggiungi Attività",
+    "assignment.additionalnotes": "Commenti Aggiuntivi",
+    "assignment.deleteassignment": "Elimina Ordine",
+    "assignment.assignment": "Ordine",
+    "assignment.history": "Cronologia",
+    "assignment.to": "a",
+    "assignment.changed": "cambiava",
+    "assignment.from": "da",
+    "assignment.on": "il",
+
+
+
+
+    "delete.sure.post": "Vuoi davvero eliminare questo post?",
+    "delete.sure.assignment": "Vuoi davvero eliminare questo ordine?",
+    "delete.sure.user": "Vuoi davvero eliminare questo utente?",
+    "delete.sure.defaulttask": "Vuoi davvero eliminare questo compito predefinito?",
+    "delete.sure.workshop": "Vuoi davvero eliminare questo laboratorio?"
+
+}
